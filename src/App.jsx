@@ -4,7 +4,23 @@ import styles from './style'
 function App() {
   return (
     <div className='bg-primary w-full overflow-hidden'>
-      <h1>hello</h1>
+    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth}`}>
+        Navbar
+      </div>
+       </div>
+       <div className={`bg-primary ${styles.paddingX} ${styles/flexStart}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Stats/>
+          <Business/>
+          <Billing/>
+          <CardDeal/>
+          <Testimonials/>
+          <Clients/>
+          <Cta/>
+          <Footer/>
+        </div>
+       </div>
     </div>
   )
 }
