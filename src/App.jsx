@@ -12,8 +12,7 @@ function App() {
        </div>
 
        <div className={`bg-primary ${styles.flexStart}`}>
-        <div className={`${styles.boxWidth}`}
-        >
+        <div className={`${styles.boxWidth}`}>
         <Hero />
         </div>
        </div>
@@ -26,7 +25,6 @@ function App() {
           <CardDeal />
           <Testimonials />
           <Clients />
-           <Navbar/>
           <Cta />
           <Footer />
         </div>
