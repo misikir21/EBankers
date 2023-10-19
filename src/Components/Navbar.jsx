@@ -3,6 +3,7 @@ import {close,logo,menu} from '../assets'
 import {navLinks} from '../constants'
 
 function Navbar() {
+ const[toogle,settoogle] =useState(false)
   return (
     <div className='w-full flex py-6 justify-between items-center navbar'>
       <img src={logo} alt="logo" className='w-[124px] h-[32px]'/>
@@ -13,10 +14,13 @@ function Navbar() {
     <a href={`#${nav.id}`}>
       {nav.title}
     </a>
-
+ 
   </li>
 ))}
       </ul>
+      <div className='sm:hidden flex flex-1 justify-end items-center'>
+        <img src={toogle ?close:menu} alt="" />
+      </div>
     </div>
   )
 }
