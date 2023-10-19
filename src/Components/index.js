@@ -9,7 +9,7 @@ import CardDeal from "./CardDeal";
 import Feedback from "./Feedback";
 import Clients from "./Clients";
 import Stats from "./Stats";
-import Getstarted from "./Getstarted";
+import Getstarted from "./GetStarted";
 export {
   Footer,
   Getstarted,
