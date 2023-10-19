@@ -9,16 +9,18 @@ import CardDeal from "./CardDeal";
 import Feedback from "./Feedback";
 import Clients from "./Clients";
 import Stats from "./Stats";
+import Getstarted from "./Getstarted";
 export {
-    Footer,
-    Cta,
-    Testimonials,
-    Hero,
-    Navbar,
-    Billing,
-    Business,
-    CardDeal,
-    Feedback,
-    Clients,
-    Stats
-}
+  Footer,
+  Getstarted,
+  Cta,
+  Testimonials,
+  Hero,
+  Navbar,
+  Billing,
+  Business,
+  CardDeal,
+  Feedback,
+  Clients,
+  Stats,
+};
