@@ -29,6 +29,12 @@ function Billing() {
             alt="apple logo"
             className="w-[128px] h-[42px] object-contain mr-5 cursor-pointer"
           />
+
+          <img
+            src={google}
+            alt="google logo"
+            className="w-[128px] h-[42px] object-contain  cursor-pointer"
+          />
         </div>
       </div>
     </section>
