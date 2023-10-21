@@ -10,9 +10,11 @@ import Feedback from "./Feedback";
 import Clients from "./Clients";
 import Stats from "./Stats";
 import Getstarted from "./GetStarted";
+import FeedbackCard from "./FeedbackCard";
 export {
   Footer,
   Getstarted,
+  FeedbackCard,
   Cta,
   Testimonials,
   Hero,
